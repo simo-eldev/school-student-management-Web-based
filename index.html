@@ -4,11 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Management</title>
+    <link rel="stylsheet" href="/node_modules/bootstrap/dist/css/bootstrap.css" media="all">
 </head>
 <body>
 
 
+  <div
+    class="container-fluid"
+  >
+    bs5-grid-row
+  </div>
+  
+  <button type="button" class="btn btn-success">Success</button>
+
+
+  </div>
     
-    
+  <div class="table-responsive my-3">
+    <table class="table">
+        <thead>
+            <tr class="table-primary ">
+                <th class="sort-element" data-column="id" scope="col">#ID <span></span></th>
+                <th class="sort-element" data-column="name" scope="col">Nom <span></span></th>
+                <th class="sort-element" data-column="date" scope="col">Age <span></span></th>
+                <th class="sort-element" data-column="note" scope="col">Note <span></span></th>
+                <th scope="col">Supprimer</th>
+            </tr>
+        </thead>
+        <tbody class="liste-etudiants">
+
+        </tbody>
+    </table>
+</div>
+
+
+
+
 </body>
 </html>
